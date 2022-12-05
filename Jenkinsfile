@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('ls') {
             steps { 
-                echo 'cat Jenkins'
+                echo 'cat Jenkinsfile'
             }
         }
     }
