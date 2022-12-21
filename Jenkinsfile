@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('ls') {
             steps { 
-                echo 'cat Jenkinsfile'
+                git archive 'https://github.com/nelopp/nelopp-aws_nacl_infra.git'
             }
         }
     }
